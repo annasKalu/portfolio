@@ -1,0 +1,136 @@
+    body {
+        break-after: column;
+        position: sticky;
+        width: 95%;
+        height: 90vh;
+        background-color: azure
+        /*rgb(rgba(51, 255, 0, 0.315), rgba(0, 109, 128, 0.815), rgba(0, 0, 255, 0.788))*/
+        ;
+        border-style: dashed double none;
+        border-width: 15px;
+        /* transition: 5s; */
+    }
+    /*--.main {
+    z-index: 0;
+    width: 98%;
+    height: 100vh;
+    background-color: bisque;
+
+
+}
+
+*/
+    
+    #portfolioPhoto {
+        float: right;
+        width: 20%;
+        height: 48%;
+        border-radius: 50%;
+        margin-top: 05%;
+        margin-right: 10%;
+        /*personal photos should not be attched as a background image rather it should be inserted
+    in the html as a "div" then it can be resized as above;*/
+    }
+    
+    .text {
+        font-size: 1rem;
+        margin-top: 20%;
+        margin-left: 20%;
+        text-indent: -2em;
+        /* "text-indent" is used to indent a text or paragraph */
+        color: rgb(233, 195, 126);
+    }
+    
+    #myName {
+        color: black;
+        font-size: 2rem;
+    }
+    
+    .formatting_of_Pages {
+        /*--border-style: dashed;*/
+        border-radius: 10% 10% 15% 15%;
+        /* used to make a curved border  */
+        border-width: 5px;
+        border-color: brown;
+        background-color: rgba(229, 229, 240, 0.575);
+        background-attachment: scroll;
+        scroll-behavior: smooth;
+        z-index: 2;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #page_tittles {
+        color: rgb(211, 35, 35);
+        font-size: 2rem;
+        float: right;
+        margin-top: 13px;
+        margin-right: 35%;
+        margin-left: 20%;
+    }
+    
+    #page_contents_and_text {
+        margin-left: 20%;
+        font-size: 1.5rem;
+        color: rgb(17, 16, 16);
+        font-family: 'Grenze', serif;
+        letter-spacing: .2rem;
+        word-spacing: .2rem;
+        z-index: 2;
+    }
+    
+    #inlineIndent {
+        margin-left: 25%;
+        /*used to indent the last line in the second page*/
+        /*<main class="main-container">
+  <header class="main-header">HEADER</header>
+  <div class="main-content">MAIN CONTENT</div>
+  <footer class="main-footer">FOOTER</footer>
+</main>*/
+        /*.main-footer{     
+     position: sticky; 
+     bottom: 0;*/
+    }
+    
+    .last_page {
+        border-radius: 10% 10% 15% 15%;
+        /* used to make a curved border  */
+        border-width: 5px;
+        border-color: brown;
+        background-color: rgba(229, 229, 240, 0.575);
+        background-attachment: scroll;
+        scroll-behavior: smooth;
+        z-index: 1;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #contacts {
+        margin-left: 20%;
+        font-size: 1.5rem;
+        font-family: 'Grenze', serif;
+        letter-spacing: .2rem;
+        word-spacing: .2rem;
+        line-height: 2.5;
+        /* line-height: is used to determine the line spacing in the page or 
+    div;  */
+    }
+    
+    @media screen and (max-width: 480px) {
+        body {
+            font-size: small;
+        }
+        #portfolioPhoto {
+            width: 20%;
+            height: 30%;
+        }
+        .formatting_of_Pages {
+            font-size: small;
+        }
+        #page_tittles {
+            font-size: small;
+        }
+        #page_contents_and_text {
+            font-size: small;
+        }
+    }
