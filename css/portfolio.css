@@ -134,3 +134,13 @@
             font-size: small;
         }
     }
+
+    #copyright {
+        
+        font-size: 1em;
+        color: brown;
+        font-style: italic;
+        text-align: center;
+        border: 25% solid blue;
+
+    }
